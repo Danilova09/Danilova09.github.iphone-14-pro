@@ -1,0 +1,39 @@
+/* Normalize css */
+* {
+ box-sizing: border-box;
+}
+
+body {
+ margin: 0;
+ font-family: 'Inter', sans-serif;
+ font-weight: 400;
+}
+
+ul {
+ margin: 0;
+ padding: 0;
+}
+
+li {
+ cursor: pointer;
+ list-style: none;
+}
+
+a {
+ text-decoration: none;
+}
+
+button {
+ background: transparent;
+ border: none;
+ cursor: pointer;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+ margin: 0;
+}
