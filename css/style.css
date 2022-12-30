@@ -400,6 +400,10 @@
 }
 
 @media (max-width: 991.98px) {
+    .cards-block {
+        padding: 0px 0px 100px 0px;
+    }
+
     .cards {
         flex-wrap: wrap;
         align-items: center;
@@ -422,7 +426,137 @@
     .cards_top {
         margin-top: 10px;
     }
+
     .card {
         width: 100%;
+    }
+}
+
+.form-block_inner {
+    display: flex;
+    align-content: center;
+}
+
+.form-block__item {
+    width: 50%;
+}
+
+.form-block__item_left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #574B63;
+}
+
+.form-block__form {
+    display: flex;
+    flex-direction: column;
+    max-width: 420px;
+}
+
+.title-secondary_light {
+    color: #FFFFFF;
+}
+
+.form-block__input {
+    background: transparent;
+    border: none;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #F5F5F5;
+    margin-top: 30px;
+    outline: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    color: #FFFFFF;
+    opacity: 0.5;
+}
+
+.form-block__input::placeholder,
+.form-block__description {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    color: #FFFFFF;
+    opacity: 0.5;
+}
+
+.form-block__description {
+    margin-top: 30px;
+    align-self: center;
+}
+
+.form-block__btn {
+    border: none;
+    background: #FFFFFF;
+    border-radius: 30px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 130%;
+    color: #490E84;
+    padding: 16px 81px;
+    margin-top: 30px;
+}
+
+.form-block_img {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    display: block;
+}
+
+@media (max-width: 991.98px) {
+    .form-block {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .form-block_inner {
+        flex-wrap: wrap;
+        margin: 0 auto;
+        justify-content: center;
+    }
+
+    .form-block__item {
+        width: 100%;
+    }
+
+    .form-block__item_left {
+        max-width: 600px;
+        padding: 70px;
+    }
+
+    .form-block__description {
+        text-align: center;
+    }
+}
+
+.footer {
+    background: #0A0A0A;
+    padding: 35px 0px;
+}
+
+.footer__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer__text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    color: #717171;
+}
+
+@media (max-width: 767.98px) {
+    .footer__inner {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .footer__icon {
+        order: 1;
     }
 }
